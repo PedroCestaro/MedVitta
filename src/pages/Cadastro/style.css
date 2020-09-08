@@ -1,0 +1,12 @@
+.page-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-container fieldset{
+    border: none;
+}
+
+.page-container fieldset+fieldset{
+    margin-top: 2rem;
+}

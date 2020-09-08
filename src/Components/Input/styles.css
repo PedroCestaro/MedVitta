@@ -1,0 +1,28 @@
+.input-block{
+    height: 80%;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.input-block label{
+    display: flex;
+    margin: auto;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.input-block input{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 1pox solid black;
+    outline: unset;
+}
